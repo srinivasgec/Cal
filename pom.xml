@@ -17,10 +17,10 @@
 		<maven.compiler.target>1.7</maven.compiler.target>
 
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-		<sonar.projectKey>calculator</sonar.projectKey>
+		<sonar.projectKey>sample</sonar.projectKey>
 		<sonar.language>java</sonar.language>
 		<sonar.host.url>http://localhost:9000</sonar.host.url>
-		<sonar.login>paste your token here</sonar.login>
+		<sonar.login>sqp_e75ff9a884044c3e21b9ec91bb55f109bcc1dc10</sonar.login>
 
 	</properties>
 
@@ -128,6 +128,6 @@
 			<id>artifactory</id>
 			<name>Calc_Dev_Snapshot</name>
 			<url>http://localhost:8081/artifactory/Calc_Dev_Snapshot</url>
-		</repository>
-	</distributionManagement>
+			</repository>
+			</distributionManagement>
 </project>
