@@ -17,6 +17,7 @@
 			<option value="sub">Sub</option>
 			<option value="mul">Mul</option>
 			<option value="div">Div</option>
+			<option value="mod">mod</option>
 		</select> <br> <input type="submit" value="Go">
 	</form>
 </body>
